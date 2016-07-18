@@ -33,8 +33,7 @@ namespace InstagramCheckerClient
 		public static void Main()
 		{
 			InstagramChecker ic = new InstagramChecker();
-			ic.Initialize();
-			
+
 			Console.WriteLine(ic.CheckEmail("hector@gmail.com"));
 			Console.WriteLine(ic.CheckEmail("darungrim@gmail.com"));
 			
